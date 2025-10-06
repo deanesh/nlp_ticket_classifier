@@ -35,7 +35,6 @@ user_input = st.text_area("Ticket Text:")
 if st.button("Classify"):
     try:
         cleaned = clean_text(user_input)
-        st.write(cleaned)
 
         if not cleaned.strip():
             st.error("Input is empty or only contains stopwords. Please enter valid text.")
@@ -47,9 +46,7 @@ if st.button("Classify"):
             else:
                 padded = pad_sequences(seq, maxlen=20)
                 pred = model.predict(padded)
-                st.write(pred)
                 label = label_encoder.inverse_transform([np.argmax(pred)])
-                st.write(label)
                 st.success(f"Predicted Category: **{label[0]}**")
     except Exception as ex:
         st.error("Input could not be processed. Try different or longer text.")
