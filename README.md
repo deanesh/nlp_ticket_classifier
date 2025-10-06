@@ -1,7 +1,7 @@
 # NLP Ticket Classifier
 
 ##  NLP-Based Support Ticket Classification (TensorFlow, NLTK)
-    Using **LSTM**, **TF-IDF / Word2Vec**, and **Streamlit** for demo
+    Using **LSTM**, **Tokenizer + pad_sequences + Embedding**, and **Streamlit** for demo
 
 
 ##### ✅ Project Overview
