@@ -9,7 +9,7 @@
 | Step          | Tool                                        |
 | ------------- | ------------------------------------------- |
 | Preprocessing | NLTK                                        |
-| Vectorization | TF-IDF (for this example)                   |
+| Vectorization | Tokenizer + Padding + Embedding (Keras)     |
 | Model         | LSTM with TensorFlow/Keras                  |
 | Interface     | Streamlit                                   |
 | Evaluation    | F1 Score                                    |
