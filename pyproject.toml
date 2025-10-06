@@ -1,0 +1,13 @@
+[project]
+name = "nlp-ticket-classifier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nltk>=3.9.2",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "streamlit>=1.50.0",
+    "tensorflow>=2.20.0",
+]
