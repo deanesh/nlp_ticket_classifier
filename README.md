@@ -29,7 +29,7 @@ nlp_ticket_classifier/
 │   └── tickets.csv
 │
 ├── model/
-│   ├── lstm_model.h5
+│   ├── lstm_model.keras
 │   ├── tokenizer.pkl
 │   └── label_encoder.pkl
 │
