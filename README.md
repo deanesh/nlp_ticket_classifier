@@ -1,6 +1,6 @@
-# NLP Ticket Classifier
+#### NLP Ticket Classifier
 
-##  NLP-Based Support Ticket Classification (TensorFlow, NLTK)
+#####  NLP-Based Support Ticket Classification (TensorFlow, NLTK)
     Using **LSTM**, **Tokenizer + pad_sequences + Embedding**, and **Streamlit** for demo
 
 ##### ✅ Project Overview
@@ -13,7 +13,7 @@
 | Evaluation    | F1 Score                                    |
 | Dataset       | Simulated support tickets (`text`, `label`) |
 
-## ✅ To Run the App:
+##### ✅ To Run the App:
 1. Install dependencies:
     pip install -r requirements.txt
 2. Train the model:
